@@ -35,8 +35,8 @@ from AnieXEricaMusic.utils.database import (
 @app.on_message(
     filters.command(
         [
-            "play",
-            "vplay",
+            "play", "oynat",
+            "vplay", "voynat",
             "cplay",
             "cvplay",
             "playforce",
